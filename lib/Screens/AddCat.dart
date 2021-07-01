@@ -192,10 +192,7 @@ class _AddCatState extends State<AddCat> {
                                           print(shopFor);
                                           await Navigator.of(context)
                                               .push(new MaterialPageRoute(
-                                              builder: (context) => c ==
-                                                  null
-                                                  ? CircularProgressIndicator()
-                                                  : HomePage(
+                                              builder: (context) => HomePage(
                                                 title: 'Cat-a-Log',
                                               )))
                                               .whenComplete(() {
